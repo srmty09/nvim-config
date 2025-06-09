@@ -1,0 +1,13 @@
+vim.opt.mouse = 'a'
+vim.opt.number = true
+vim.opt.relativenumber = true
+vim.opt.termguicolors = true
+vim.opt.background = 'dark'
+vim.cmd('highlight Normal guibg=#000000')
+vim.cmd('highlight NormalNC guibg=#000000')
+vim.opt.signcolumn = 'yes'
+vim.opt.updatetime = 300
+vim.opt.clipboard = 'unnamedplus'
+vim.opt.tabstop = 2
+vim.opt.shiftwidth = 2
+vim.opt.expandtab = true 
